@@ -59,6 +59,8 @@ The Robot Framework Foundation is a non-profit organization that supports the de
   - [AWS](https://pypi.org/project/robotframework-aws/) - Keywords for interacting with AWS services in your test suites.
   - [Jenkins](https://pypi.org/project/robotframework-jenkins/) Jenkins interaction.
   - [Webpack](https://pypi.org/project/robotframework-webpack/) Control Webpack dev servers.
+  - [Kubernetes](https://pypi.org/project/robotframework-kubelibrary/) - Keywords for interacting with the [Kubernetes API](https://kubernetes.io/).
+  - [Terraform](https://pypi.org/project/robotframework-terraformlibrary/) - Infrastructure as Code via [Terraform](https://www.terraform.io/) and [OpenTofu](https://opentofu.org/).
 
 ### Data
   - [Datetime-TZ](https://pypi.org/project/robotframework-datetime-tz/) Date/time with locales and time zones.
@@ -136,6 +138,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
   - [Zookeeper Manager](https://pypi.org/project/robotframework-zookeepermanager/) Manage Apache Zookeeper.
   - [Xvfb](https://pypi.org/project/robotframework-xvfb/) Interact with Xvfb.
   - [WinRegistry](https://pypi.org/project/winregistry/) Work with Windows Registry.
+  - [PerfmonLibrary](https://github.com/damies13/robotframework-perfmon) Read Windows Performance Monitor Counters.
 
 ### Testing And Debugging
   - [Advanced Logging](https://pypi.org/project/robotframework-advancedlogging/) Create additional logs.
@@ -207,6 +210,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
       - [Robotcode for Jetbrains](https://plugins.jetbrains.com/plugin/26216-robotcode--robot-framework-support) 
     - 
 - IDEs
+  - [RIDE (Robot Framework IDE)](https://pypi.org/project/robotframework-ride/) - RIDE is a lightweight and intuitive editor for Robot Framework test data.
   - [robotframework-workbench](https://pypi.org/project/robotframework-workbench/) Collection of tools for working with robotframework test suite and resource files.
 
 - Integrations
@@ -236,7 +240,13 @@ The Robot Framework Foundation is a non-profit organization that supports the de
  - Robot Framework Executor
    - [robotframework-executor](https://github.com/MandyYdnam/Robo_App) Gui Application to Run the Robot Framework Test. With features like parellel execution, Batch monitor, Execution Monitor, Historical Stats, Downloads Batch/execution/historical data to csv, Bookmark test cases etc.  
 
+ - Online Playground
+   - Released to try [tutorial examples in the browser](https://robotframework.org/code/), but can also be used to try code on different Robot Framework versions or for sharing code on forum or slack.
+   - Different number and type of files configuration can be found [here](https://github.com/Snooz82/robotframework-code-examples).
+
 ## Resources
+
+- [RobotFramework Youtube Channel](https://www.youtube.com/c/RobotFrameworkChannel) with speaches from previous Robocon and [tutorials in the live section](https://www.youtube.com/@RobotFrameworkChannel/streams).
 
 - Robocon 2020
   - [Playlist](https://www.youtube.com/playlist?list=PLSK6YK5OGX1AZMAffD8EiTDq0lfzshRNg&cbrd=1&ucbcb=1)
@@ -283,8 +293,9 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - MOOCs
 
 - Theses
-  - [Data-Driven and Keyword-Driven Test Automation Frameworks](http://eliga.fi/Thesis-Pekka-Laukkanen.pdf) Master's Thesis, Pekka Laukkanen
-  - [Web  Application  Test  Automation  with  Robot Framework](https://www.theseus.fi/bitstream/handle/10024/93164/Thesis_Jani_Luostarinen_v1_0.pdf?sequence=1) Bachelor's Thesis, Jani Luostarinen
+  - [Data-Driven and Keyword-Driven Test Automation Frameworks](http://eliga.fi/Thesis-Pekka-Laukkanen.pdf) Master's Thesis, Pekka Laukkanen (2006)
+  - [Web  Application  Test  Automation  with  Robot Framework](https://www.theseus.fi/bitstream/handle/10024/93164/Thesis_Jani_Luostarinen_v1_0.pdf?sequence=1) Bachelor's Thesis, Jani Luostarinen (2015)
+  - [Enabling Self-healing Locators for Robot Framework with Large Language Models](https://helda.helsinki.fi/server/api/core/bitstreams/631b961a-8642-42ed-9826-3e196eac9cf7/content) Master’s thesis, Paavo Rohamo (2024)
 
 - Shared Code Repositories
   - [MarketSquare](https://github.com/MarketSquare) A community run collection of repositories for Robot Framework. Originally featured in a RoboCon 2020 lightning talk presented by Edward Manlove.
