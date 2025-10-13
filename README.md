@@ -126,6 +126,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 
 ### GUI And Applications
 
+- [FlaUI](https://github.com/GDATASoftwareAG/robotframework-flaui) Windows GUI testing library for applications based on Win32, WinForms, WPF or Store Apps
 - [AutoIt Library](https://code.google.com/archive/p/robotframework-autoitlibrary/) Windows GUI testing library that uses AutoIt freeware tool as a driver.
 - [Eclipse Library](https://github.com/lcarbonn/robotframework-eclipselibrary) Library for testing Eclipse RCP applications using SWT widgets.
 - [Remote Swing Library](https://github.com/MarketSquare/remoteswinglibrary) Robot Framework library for testing and connecting to a java process and using SwingLibrary.
@@ -236,6 +237,12 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 ### Remote Library Examples
 
 - [robotframework-scala-remote-library](https://github.com/jg8481/robotframework-scala-remote-library) - Example of a Remote Server Keywords library implementation in Scala, based on a blog post by Thomas Jaspers.
+
+### Custom Library Examples & Usage
+
+- [Robotframework-custom-library-boilerplate](https://github.com/Dattebayooooo/RobotFramework-CustomLibrary-Boilerplate) - Example of writing custom keywords library implementation in python.
+- [Obfuscation of python custom rf library](https://gist.github.com/Dattebayooooo/6974ae64dcb6933b992d8034cc340c87) - Steps to obfuscate
+- [How to use obfuscated library](https://gist.github.com/Dattebayooooo/abf3a83ada225e5fce2142fa88d211fb) - Loading Obfuscated library in Robotframework
 
 ## Tools
 
