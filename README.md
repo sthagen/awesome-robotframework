@@ -81,6 +81,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [JSON Schema Library](https://github.com/jstaffans/robotframework-jsonschemalibrary) JSON Schema validation library for Robot Framework.
 - [JSON Validator](https://pypi.org/project/robotframework-jsonvalidator/) JSON validation based on JSONSchema, JSONPath, JSONSelect.
 - [String Format](https://pypi.org/project/robotframework-stringformat/) String formatting.
+- [SynData](https://pypi.org/project/robotframework-syndata/) Library for generating synthetic test data with logging and a "playback function".
 - [XML Validator](https://pypi.org/project/robotframework-xmlvalidator/) A Robot Framework library for validating XML files against XSD schemas.
 
 ### Database
@@ -205,6 +206,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [Dependency Library](https://pypi.org/project/robotframework-dependencylibrary/) Declare dependencies between Robot Framework tests.
 - [Dependency Solver](https://pypi.org/project/robotframework-dependencysolver/) A Robot Framework prerunmodifier for interdependent test cases execution.
 - [Testrail](https://pypi.org/project/robotframework-testrail/) Listener and pre-run modifier for working with TestRail.
+- [RobotLiveTrace](https://github.com/iDentitY4/robotframework-live-trace) Real-time GUI dashboard for visualizing test execution keyword call stacks and logs.
 
 ### Visual Testing
 
@@ -213,6 +215,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [Eyes](https://pypi.org/project/robotframework-eyeslibrary/) To automate visual software testing.
 - [ImageHorizonLibrary](https://github.com/Eficode/robotframework-imagehorizonlibrary) ([Keywords](https://eficode.github.io/robotframework-imagehorizonlibrary/doc/ImageHorizonLibrary.html)) Cross-platform, pure Python library for GUI automation based on image recognition.
 - [WatchUI](https://github.com/Tesena-smart-testing/WatchUI) Custom library for works with image, pdf and tesseract with RF.
+- [Wopee_rf](https://docs.wopee.io/robot-framework/) Visual regression testing library with AI-powered autonomous test maintenance and self-healing.
 
 ### Web Testing
 
