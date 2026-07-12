@@ -59,6 +59,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [ADB Library](https://github.com/ganesanluna/ADBLibrary) Library that provides Android Debug Bridge (ADB) functionalities for automated testing and device control.
 - [Android Library](https://github.com/lovelysystems/robotframework-androidlibrary) ([Keywords](http://www.lovelysystems.com/robotframework-androidlibrary/AndroidLibrary.html)) Library for all your Android automation needs. It uses Calabash Android internally.
 - [Appium Library](https://github.com/serhatbolsu/robotframework-appiumlibrary) Library for Android- and iOS-testing. It uses Appium internally.
+- [crosslocator](https://github.com/julien-becheny/crosslocator) Define a UI selector once and resolve it per platform (Android, iOS, iPadOS, Windows). Framework-agnostic, with Robot Framework keywords (`Set Current Platform`, `Resolve Locator`).
 - [iOS Library](https://github.com/lovelysystems/robotframework-ioslibrary) Library for all your iOS automation needs. It uses Calabash iOS Server internally.
 
 ### Cloud and Devops
@@ -167,6 +168,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [Requests Checker](https://pypi.org/project/robotframework-requestschecker/) Check HTTP Response Status Codes.
 - [Requests Logging](https://pypi.org/project/robotframework-requestslogger/) Log HTTP requests and responses.
 - [RESTinstance Library](https://pypi.org/project/RESTinstance/) Robot Framework test library for (RESTful) JSON APIs.
+- [OKW API REST](https://pypi.org/project/robotframework-okw-api-rest/) Keyword-driven REST API testing for OKW4Robot. Phase-based workflow (Start → Scope → Input → Action → Verify → Memorize → Stop), auto type detection, nested JSON via SetContext, file upload, OKW token support ($IGNORE, $EMPTY, $NULL), and three match modes (EXACT, WCM, REGX). ([Keyword Docs](https://hrabovszki1023.github.io/robotframework-okw-api-rest/OkwApiRestLibrary.html))
 - [SSH Library](https://pypi.org/project/robotframework-sshlibrary/) Test library for SSH and SFTP.
 - [OKW Remote SSH](https://pypi.org/project/robotframework-okw-remote-ssh/) Deterministic remote command execution and SFTP file transfer via SSH with structured verification (stdout, stderr, exit code, duration) and OKW contract matching. ([Keyword Docs](https://hrabovszki1023.github.io/robotframework-okw-remote-ssh/RemoteSshLibrary.html))
 - [SNMP Library](https://pypi.org/project/robotframework-snmplibrary/) Work with SNMP.
@@ -207,6 +209,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [Dependency Solver](https://pypi.org/project/robotframework-dependencysolver/) A Robot Framework prerunmodifier for interdependent test cases execution.
 - [Testrail](https://pypi.org/project/robotframework-testrail/) Listener and pre-run modifier for working with TestRail.
 - [RobotLiveTrace](https://github.com/iDentitY4/robotframework-live-trace) Real-time GUI dashboard for visualizing test execution keyword call stacks and logs.
+- [WebDialogs](https://github.com/Ymil/robotframework-webdialogs) - Browser-based dialogs and custom forms for human-in-the-loop Robot Framework executions.
 
 ### Visual Testing
 
@@ -299,6 +302,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [Robocop](https://robocop.dev/stable/) - Static code analysis tool and formatting with configurable rules.
 - [Find Unused](https://github.com/Lakitna/robotframework-find-unused) - CLI tool to find unused keywords, arguments, returns, and global variables across folders.
 - [RobotFramework Recorder](https://chromewebstore.google.com/detail/robotframework-recorder/jgimecbadohdchfdpajoegnbejfkndpg) - Chrome extension for recording Robot Framework steps for Selenium and Browser libraries.
+- [robotframework-falsegreen](https://github.com/vinicq/robotframework-falsegreen) - Static scan that finds tests passing green without verifying anything (no oracle, swallowed failures, always-true checks), via the official robot.api.
 
 ### Reporting Tools
 
@@ -307,6 +311,8 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [DbBot](https://github.com/MarketSquare/DbBot) - Serialize Robot Framework test run results into a SQLite database.
 - [robotframework-historic](https://github.com/adiralashiva8/robotframework-historic) - Generate historical reports from test results.
 - [LibDocGen](https://pypi.org/project/robotframework-libdocgen/) - Documentation generator for Robot Framework libraries that creates clean, modern HTML/Markdown docs with global keyword search.
+- [ReportLens](https://github.com/deekshith-poojary98/robotframework-reportlens) - An open-source tool that converts Robot Framework "output.xml" files into a modern, interactive, single-file HTML report for easier debugging and navigation of test execution results.
+- [LibToc](https://github.com/amochin/robotframework-libtoc) - This tool generates docs using Robot Framework Libdoc for an entire folder (or multiple folders) with Robot Framework resources/libs and creates a TOC (table of contents) file for them.
 
 ### AI Tools
 
@@ -314,6 +320,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [robotframework-test-assistant](https://github.com/jg8481/leon/tree/develop/packages/robotframework-test-assistant) - Conversational AI assistant for controlling Robot Framework test suites and RPA tasks.
 - [Robot-Framework-AI-Agent-Datadriver](https://github.com/jg8481/Robot-Framework-AI-Agent-Datadriver) - AI agent project that combines the capabilities of Codename Goose, MCP tools, the Robot Framework ecosystem, decentralized LLMs on Ollama, and Docker.
 - [Result Companion](https://github.com/miltroj/result-companion) - AI-powered Robot Framework debugger — pinpoints why tests failed and how to fix them directly in log.html; supports custom analysis prompts and 100+ LLM providers.
+- [robotframework-agentskills](https://github.com/manykarim/robotframework-agentskills) - Modular skills and agents for AI coding assistants (Claude Code, Copilot, Cursor, etc.) to write, debug, and migrate Robot Framework tests, with an MCP server and multi-agent installer.
 
 ### Execution Tools
 
@@ -339,7 +346,9 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 
 [Official Robot Framework Conference](https://www.robocon.io/)
 
-- [Playlist 2025 - see youtube channel](https://www.youtube.com/@RobotFrameworkChannel)
+- [CFP 2027](https://pretalx.com/robocon-2027/cfp) - Call for Proposals open until October 4, 2026
+- [Videos 2026 - see youtube channel](https://www.youtube.com/@RobotFrameworkChannel) (no playlist yet)
+- [Playlist 2025](https://www.youtube.com/playlist?list=PLSK6YK5OGX1A1rYDyB-2bVgJcXAwhe62G)
 - [Playlist 2024](https://www.youtube.com/playlist?list=PLSK6YK5OGX1CECNLS7E9H2iTsWPMZrHmA)
 - [Playlist 2023](https://www.youtube.com/playlist?list=PLSK6YK5OGX1DYqe35OX0_CqE1DEP7dI9I)
 - [Playlist 2022](https://www.youtube.com/playlist?list=PLSK6YK5OGX1AN9PSVHz1vsoSqbz3tFS_C)
