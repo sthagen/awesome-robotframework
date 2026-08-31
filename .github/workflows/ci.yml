@@ -33,8 +33,4 @@ jobs:
             README.md
           fail: true
       - name: Check awesome-list conventions
-        # Informational only: the list intentionally keeps some conventions
-        # awesome-lint disagrees with (back-to-top links, repeated domain
-        # links across sections), so this doesn't block merges yet.
-        continue-on-error: true
         run: npx --yes awesome-lint

@@ -1,3 +1,6 @@
+<!--lint disable double-link-->
+<!-- Repeated "back to top" (#contents) and core-domain links (robotframework.org, robocon.io) are intentional. -->
+
 # Awesome Robot Framework [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -6,6 +9,7 @@
 [<img src="https://raw.githubusercontent.com/marketsquare/awesome-robotframework/master/robot_framework_logo_new.png" align="right" width="86">](https://robotframework.org/)
 
 > A curated list of awesome Robot Framework resources and libraries
+
 
 Entries marked *No updates since YYYY.* have had no commits or releases for at least three years; *Archived; no updates since YYYY.* means the upstream repository is archived. They stay listed because they may still work or serve as a reference, but expect no support.
 
