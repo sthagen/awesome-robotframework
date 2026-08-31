@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Check links
         # Using lychee (not awesome_bot) because it can authenticate GitHub
         # link checks with GITHUB_TOKEN via the GitHub API, instead of
