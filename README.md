@@ -327,6 +327,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [Robotframework-custom-library-boilerplate](https://github.com/Dattebayooooo/RobotFramework-CustomLibrary-Boilerplate) - Example of writing custom keywords library implementation in python. *No updates since 2023.*
 - [Obfuscation of python custom rf library](https://gist.github.com/Dattebayooooo/6974ae64dcb6933b992d8034cc340c87) - Steps to obfuscate.
 - [How to use obfuscated library](https://gist.github.com/Dattebayooooo/abf3a83ada225e5fce2142fa88d211fb) - Loading Obfuscated library in Robotframework.
+- [OKW Examples](https://github.com/Hrabovszki1023/okw-examples) - Runnable integration tests for the OKW library family: Web (Selenium), REST API, SSH, Kafka, and Docker environments — ready to clone and run.
 
 **[⬆ back to top](#contents)**
 
