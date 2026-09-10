@@ -215,6 +215,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 
 - [BonjourLibrary](https://github.com/Legrandgroup/robotframework-bonjourlibrary) - Testing devices announcing services using the Bonjour/mDNS protocol. *No updates since 2019.*
 - [Confluent Kafka Library](https://pypi.org/project/robotframework-confluentkafkalibrary/) - Wrapper for the confluent-kafka-python.
+- [OKW Kafka](https://github.com/Hrabovszki1023/robotframework-okw-kafka) ([Keywords](https://hrabovszki1023.github.io/robotframework-okw-kafka/OkwKafkaLibrary.html)) - Keyword-driven Apache Kafka integration testing. Phase-based workflow (Start → Scope → Input → Produce → Consume → Verify → Stop), JSONPath field access, auto-typing, OKW token support ($IGNORE, $EMPTY), three match modes (EXACT, WCM, REGX), and memorize for cross-message correlation.
 - [DHCP Client Library](https://github.com/Legrandgroup/robotframework-dhcpclientlibrary) - Library for testing DHCP servers. *No updates since 2019.*
 - [DHCP Server Library](https://github.com/Legrandgroup/robotframework-dhcpserverlibrary) - Library for testing DHCP clients. *No updates since 2019.*
 - [FTP Library](https://github.com/kowalpy/Robot-Framework-FTP-Library) - Library which makes it possible to test or use FTP server using Robot Framework keywords.
