@@ -215,6 +215,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 
 - [BonjourLibrary](https://github.com/Legrandgroup/robotframework-bonjourlibrary) - Testing devices announcing services using the Bonjour/mDNS protocol. *No updates since 2019.*
 - [Confluent Kafka Library](https://pypi.org/project/robotframework-confluentkafkalibrary/) - Wrapper for the confluent-kafka-python.
+- [OKW Kafka](https://github.com/Hrabovszki1023/robotframework-okw-kafka) ([Keywords](https://hrabovszki1023.github.io/robotframework-okw-kafka/OkwKafkaLibrary.html)) - Keyword-driven Apache Kafka integration testing. Phase-based workflow (Start → Scope → Input → Produce → Consume → Verify → Stop), JSONPath field access, auto-typing, OKW token support ($IGNORE, $EMPTY), three match modes (EXACT, WCM, REGX), and memorize for cross-message correlation.
 - [DHCP Client Library](https://github.com/Legrandgroup/robotframework-dhcpclientlibrary) - Library for testing DHCP servers. *No updates since 2019.*
 - [DHCP Server Library](https://github.com/Legrandgroup/robotframework-dhcpserverlibrary) - Library for testing DHCP clients. *No updates since 2019.*
 - [FTP Library](https://github.com/kowalpy/Robot-Framework-FTP-Library) - Library which makes it possible to test or use FTP server using Robot Framework keywords.
@@ -326,6 +327,7 @@ The Robot Framework Foundation is a non-profit organization that supports the de
 - [Robotframework-custom-library-boilerplate](https://github.com/Dattebayooooo/RobotFramework-CustomLibrary-Boilerplate) - Example of writing custom keywords library implementation in python. *No updates since 2023.*
 - [Obfuscation of python custom rf library](https://gist.github.com/Dattebayooooo/6974ae64dcb6933b992d8034cc340c87) - Steps to obfuscate.
 - [How to use obfuscated library](https://gist.github.com/Dattebayooooo/abf3a83ada225e5fce2142fa88d211fb) - Loading Obfuscated library in Robotframework.
+- [OKW Examples](https://github.com/Hrabovszki1023/okw-examples) - Runnable integration tests for the OKW library family: Web (Selenium), REST API, SSH, Kafka, and Docker environments — ready to clone and run.
 
 **[⬆ back to top](#contents)**
 
